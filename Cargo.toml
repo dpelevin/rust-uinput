@@ -12,7 +12,7 @@ keywords    = ["linux", "input"]
 [dependencies]
 libc       = "0.2"
 nix        = "0.10"
-uinput-sys = "0.1"
+uinput-sys = { git = 'https://github.com/dpelevin/rust-uinput-sys.git' }
 
 custom_derive = "0.1"
 enum_derive   = "0.1"
